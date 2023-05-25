@@ -15,6 +15,9 @@ nav {
 	background-color: #9dc08b;
 	max-height: 70px;
 }
+.navbar-collapse {
+	background-color: #9dc08b;
+}
 
 .navbar-brand {
 	font-family: "Playfair Display", serif;
@@ -28,13 +31,23 @@ nav {
 
 h1 {
 	font-family: "Playfair Display", serif;
+	text-shadow: -5px 3px 3px rgba(100, 100, 100, 0.81);
 }
 
 header {
-	margin-top: 70px;
 	background-image: url(../img/nature.jpg);
 	background-position: 0%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 90vh;
+}
+
+#cta {
+	background-color: #609966;
+	border-color: #609966;
+}
+
+#cta:hover {
+	background-color: #346439;
+	border-color: #346439;
 }
