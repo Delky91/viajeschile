@@ -76,8 +76,41 @@ header {
 }
 
 /* carusel */
+#enChile {
+	background-color: #9dc08b;
+}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
 	width: 3rem;
 	height: 4rem;
+}
+
+/* CARDS */
+#destacados {
+	background-image: url(../img/carouselbg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#destacados h2 {
+	color: #346439;
+	background: hsla(180, 100%, 100%, 0.3);
+	backdrop-filter: blur(1rem);
+	border-radius: 20px;
+	max-width: 700px;
+}
+
+.card {
+	max-width: 700px;
+	background-color: #9dc08b;
+}
+.card img {
+	height: 350px;
+}
+.card h5,
+.card p {
+	color: white;
+}
+.card-body {
+	border-radius: 0 0px 10px 10px;
 }
