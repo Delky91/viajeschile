@@ -244,7 +244,10 @@
 							<img
 								src="./assets/img/card1.jpg"
 								class="card-img-top"
-								alt="montañas nevadas" />
+								alt="montañas nevadas"
+								data-bs-toggle="tooltip"
+								data-bs-placement="right"
+								data-bs-title="Ven a apreciar maravillosas vistas" />
 							<div class="card-body">
 								<h5 class="card-title fs-4 fw-bold">La Octava Maravillad del Mundo</h5>
 								<p class="card-text">
@@ -259,7 +262,10 @@
 							<img
 								src="./assets/img/card2.jpg"
 								class="card-img-top"
-								alt="desierto" />
+								alt="desierto"
+								data-bs-toggle="tooltip"
+								data-bs-placement="right"
+								data-bs-title="Aprende de la cultura Chilena" />
 							<div class="card-body">
 								<h5 class="card-title fs-4 fw-bold">Los Desiertos de Chile</h5>
 								<p class="card-text">
@@ -274,7 +280,10 @@
 							<img
 								src="./assets/img/card3.jpg"
 								class="card-img-top"
-								alt="paisaje" />
+								alt="paisaje"
+								data-bs-toggle="tooltip"
+								data-bs-placement="right"
+								data-bs-title="Disfruta de costumbres que cambiaran tu vida" />
 							<div class="card-body">
 								<h5 class="card-title fs-4 fw-bold">Los Hermosos paisajes</h5>
 								<p class="card-text">
@@ -289,7 +298,10 @@
 							<img
 								src="./assets/img/card4.jpg"
 								class="card-img-top"
-								alt="bosques" />
+								alt="bosques"
+								data-bs-toggle="tooltip"
+								data-bs-placement="right"
+								data-bs-title="Un Viaje de ensueño" />
 							<div class="card-body">
 								<h5 class="card-title fs-4 fw-bold">El Encanto del Sur</h5>
 								<p class="card-text">
@@ -304,60 +316,80 @@
 		</section>
 
 		<!--contacto-->
-		<form
-			class="container-fluid"
-			id="contacto">
-			<div class="container">
-				<div class="mb-3 text-center py-5 mx-md-0">
-					<h2 class="display-6 fw-bold">A solo un correo de distancia</h2>
-					<div class="mb-4 mt-5 text-start">
-						<label
-							for="user-name"
-							class="mb-1 fs-5 fw-bold"
-							>Ingrese su Nombre</label
-						>
-						<input
-							type="text"
-							class="form-control mb-3"
-							id="user-name"
-							aria-describedby="name"
-							placeholder="Nombre" />
-					</div>
+		<section class="container-fluid">
+			<form id="contacto">
+				<div class="container">
+					<div class="mb-3 text-center py-5 mx-md-0">
+						<h2 class="display-6 fw-bold">A solo un correo de distancia</h2>
+						<div class="mb-4 mt-5 text-start">
+							<label
+								for="user-name"
+								class="mb-1 fs-5 fw-bold"
+								>Ingrese su Nombre</label
+							>
+							<input
+								type="text"
+								class="form-control mb-3"
+								id="user-name"
+								aria-describedby="name"
+								placeholder="Nombre" />
+						</div>
 
-					<div class="mb-4 text-start">
-						<label
-							for="inputEmail"
-							class="mb-1 fs-5 fw-bold"
-							>Ingrese su Email</label
-						>
-						<input
-							type="email"
-							class="form-control"
-							id="inputEmail"
-							aria-describedby="emailHelp"
-							placeholder="Correo Electronico" />
-					</div>
+						<div class="mb-4 text-start">
+							<label
+								for="inputEmail"
+								class="mb-1 fs-5 fw-bold"
+								>Ingrese su Email</label
+							>
+							<input
+								type="email"
+								class="form-control"
+								id="inputEmail"
+								aria-describedby="emailHelp"
+								placeholder="Correo Electronico" />
+						</div>
 
-					<div class="mb-4 text-start">
-						<label
-							for="textarea"
-							class="form-label mb-1 fs-5 fw-bold"
-							>Dejanos tus dudas o consultas</label
-						>
-						<textarea
-							class="form-control"
-							id="textarea"
-							placeholder="no dudes en consultar, responderemos a la brevedad"
-							rows="10"></textarea>
+						<div class="mb-4 text-start">
+							<label
+								for="textarea"
+								class="form-label mb-1 fs-5 fw-bold"
+								>Dejanos tus dudas o consultas</label
+							>
+							<textarea
+								class="form-control"
+								id="textarea"
+								placeholder="no dudes en consultar, responderemos a la brevedad"
+								rows="10"></textarea>
+						</div>
+						<button
+							type="button"
+							class="btn mt-4 px-4"
+							data-bs-toggle="tooltip"
+							data-bs-placement="bottom"
+							data-bs-title="Te contactaremos en breve">
+							Enviar
+						</button>
 					</div>
-					<button
-						type="button"
-						class="btn btn-light mt-4 px-4">
-						Enviar
-					</button>
+				</div>
+			</form>
+		</section>
+
+		<!--FOOTER-->
+		<footer>
+			<div class="container-fluid">
+				<div class="container text-center py-5">
+					<h3 class="text-white mb-4">Encuentranos en:</h3>
+					<a href="https://github.com/Delky91?tab=repositories"><span class="fa-brands fa-github"></span></a>
+					<a
+						href="https://www.linkedin.com/"
+						class="mx-5"
+						><span class="fa-brands fa-linkedin"></span
+					></a>
+					<a href="https://www.facebook.com/"><span class="fa-brands fa-facebook"></span></a>
+					<p class="mt-5 text-white">© Copyright 2023 Luis Miño Bustos.</p>
 				</div>
 			</div>
-		</form>
+		</footer>
 		<!--BootStrap CDN-->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -368,5 +400,7 @@
 			src="https://code.jquery.com/jquery-3.7.0.min.js"
 			integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
 			crossorigin="anonymous"></script>
+		<!--JS-->
+		<script src="./assets/js/index.js"></script>
 	</body>
 </html>
