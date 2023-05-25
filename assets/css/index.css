@@ -27,6 +27,15 @@ nav {
 	width: 2rem;
 }
 
+.navbar-nav a {
+	color: white;
+}
+
+.navbar-nav a:hover {
+	color: #2b5f33;
+	font-weight: 700;
+}
+
 /* HEADER */
 
 h1 {
@@ -50,4 +59,14 @@ header {
 #cta:hover {
 	background-color: #346439;
 	border-color: #346439;
+}
+
+/*  DISCOVER  */
+
+#discover {
+	color: #2b5f33;
+}
+
+#discover span{
+    font-size:  3rem;
 }
