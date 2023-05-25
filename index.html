@@ -91,6 +91,11 @@
 							><i class="fa-solid fa-location-dot me-1"></i>Descubre</a
 						>
 						<a
+							class="nav-link me-3 d-md-none"
+							href="#enChile"
+							><i class="fa-solid fa-location-dot me-1"></i>Descubre</a
+						>
+						<a
 							class="nav-link me-3"
 							href="#"
 							>Pricing</a
@@ -104,7 +109,7 @@
 				</div>
 			</div>
 		</nav>
-
+		<!-- HEADER-->
 		<header class="container-fluid d-flex align-items-md-center align-items-center">
 			<div class="container-xl text-start pt-5 ps-3 px-md-0 pt-md-0">
 				<h1 class="display-1 fw-bold text-white">Viajes Chile</h1>
@@ -118,15 +123,16 @@
 			</div>
 		</header>
 
+		<!--DISCOVER-->
 		<section
 			id="discover"
-			class="container-fluid mt-5 d-none d-md-block">
+			class="container-fluid mt-5 d-none d-md-block border-bottom border-2 border-success">
 			<div class="container">
 				<div class="row text-center my-5">
 					<h2 class="display-5 fw-bold mb-5">Descubre</h2>
 					<div class="col-4">
 						<span class="fa-sharp fa-solid fa-hotel mb-4"></span>
-						<p class="text-md-start text-center">
+						<p class="text-md-start">
 							Descubra nuestro exclusivo servicio de hospedaje, diseñado para priorizar las necesidades y comodidad de nuestros distinguidos huéspedes. En nuestro establecimiento, encontrará una atención
 							personalizada que superará todas sus expectativas. Desde habitaciones elegantes hasta instalaciones modernas, nos esforzamos por brindarle una experiencia inolvidable. Permítanos consentirlo
 							con nuestros servicios excepcionales y asegurarle una estadía inigualable. Bienvenido a un hospedaje donde su satisfacción es nuestra máxima prioridad.
@@ -134,7 +140,7 @@
 					</div>
 					<div class="col-4">
 						<span class="fa-solid fa-plane mb-4"></span>
-						<p class="text-md-start text-center">
+						<p class="text-md-start">
 							Descubra nuestro servicio de viajes excepcional, donde su satisfacción y comodidad son nuestra prioridad principal. Desde destinos exóticos hasta aventuras emocionantes, nos encargamos de
 							planificar cada detalle para que su experiencia sea inolvidable. Nuestro equipo de expertos en viajes está listo para brindarle asistencia personalizada, recomendaciones exclusivas y servicios
 							de alta calidad. Permita que su próximo viaje sea una experiencia inigualable con nosotros. ¡Bienvenido a un mundo de descubrimientos y momentos memorables!
@@ -142,7 +148,7 @@
 					</div>
 					<div class="col-4">
 						<span class="fa-solid fa-utensils mb-4"></span>
-						<p class="text-md-start text-center">
+						<p class="text-md-start">
 							Descubra nuestra exquisita propuesta gastronómica y déjese cautivar por nuestro servicio de alimentación de primera clase. En nuestros restaurantes, nos enorgullece anteponer las necesidades de
 							nuestros comensales y garantizar su completa satisfacción. Con una cuidadosa selección de ingredientes frescos y una atención impecable, cada plato es una experiencia culinaria inigualable.
 							Nuestro equipo de chefs talentosos se esfuerza por crear sabores excepcionales que deleitarán su paladar. Sumérjase en una experiencia gastronómica única, donde la calidad y el servicio van de
@@ -152,6 +158,79 @@
 				</div>
 			</div>
 		</section>
+
+		<!--Carousel-->
+		<section
+			id="enChile"
+			class="text-center pt-5 mb-5">
+			<div class="container-fluid px-0">
+				<h2 class="display-5 fw-bold">Descubre las Maravillas de Chile</h2>
+				<div
+					id="maravillas"
+					class="carousel slide container-md px-0"
+					data-bs-ride="carousel">
+					<div class="carousel-inner mt-5">
+						<div
+							class="carousel-item active"
+							data-bs-interval="6000">
+							<img
+								src="./assets/img/carousel1.jpg"
+								class="d-block w-100"
+								alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="fs-3 fw-bold">Fauna del Norte de Chile</h5>
+								<p class="fs-5 fw-bold">Las alpacas chilenas, con su elegante presencia y su suave fibra, representan un valioso patrimonio cultural y económico en Chile.</p>
+							</div>
+						</div>
+						<div
+							class="carousel-item"
+							data-bs-interval="6000">
+							<img
+								src="./assets/img/carousel2.jpg"
+								class="d-block w-100"
+								alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="fs-3 fw-bold">Rapa Nui</h5>
+								<p class="fs-5 fw-bold">Los imponentes moais chilenos, testimonios silenciosos de la antigua civilización Rapa Nui, fascinan con su misterio y esplendor.</p>
+							</div>
+						</div>
+						<div
+							class="carousel-item"
+							data-bs-interval="6000">
+							<img
+								src="./assets/img/carousel3.jpg"
+								class="d-block w-100"
+								alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5 class="fs-3 fw-bold">Fauna del sur de Chile</h5>
+								<p class="fs-5 fw-bold">Los encantadores pingüinos chilenos, habitantes de las costas del país, cautivan con su peculiaridad y belleza en la naturaleza.</p>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#maravillas"
+						data-bs-slide="prev">
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#maravillas"
+						data-bs-slide="next">
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+
 		<!--BootStrap CDN-->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

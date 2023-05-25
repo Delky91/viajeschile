@@ -63,10 +63,21 @@ header {
 
 /*  DISCOVER  */
 
-#discover {
+#discover,
+#enChile {
 	color: #2b5f33;
+}
+#discover p {
+	font-size: 1.1rem;
 }
 
 #discover span {
 	font-size: 3rem;
+}
+
+/* carusel */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	width: 3rem;
+	height: 4rem;
 }
