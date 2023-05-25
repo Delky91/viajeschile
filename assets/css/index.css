@@ -4,20 +4,37 @@
 }
 
 body {
-	padding-top: 100px;
-	background-color: #edf1d6;
+	background-color: #ccd2af;
+	scroll-behavior: smooth;
+	font-family: "Source Sans Pro", sans-serif;
 }
+
+/*  NAVBAR   */
 
 nav {
 	background-color: #9dc08b;
-	max-height: 100px;
-}
-
-.navbar-brand img {
-	width: 1.5rem;
+	max-height: 70px;
 }
 
 .navbar-brand {
-	font-size: 1rem;
-	font-weight: bold;
+	font-family: "Playfair Display", serif;
+	font-size: 1.5rem;
+}
+.navbar-brand img {
+	width: 2rem;
+}
+
+/* HEADER */
+
+h1 {
+	font-family: "Playfair Display", serif;
+}
+
+header {
+	margin-top: 70px;
+	background-image: url(../img/nature.jpg);
+	background-position: 0%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
 }
