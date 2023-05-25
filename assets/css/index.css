@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 100px;
+	background-color: #edf1d6;
+}
+
+nav {
+	background-color: #9dc08b;
+	max-height: 100px;
+}
+
+.navbar-brand img {
+	width: 1.5rem;
+}
+
+.navbar-brand {
+	font-size: 1rem;
+	font-weight: bold;
+}
