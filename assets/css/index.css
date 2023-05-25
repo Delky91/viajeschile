@@ -114,3 +114,13 @@ header {
 .card-body {
 	border-radius: 0 0px 10px 10px;
 }
+
+/* CONTACTO*/
+
+#contacto {
+	color: #2b5f33;
+}
+
+#contacto textarea {
+	font-size: 1.2rem;
+}
