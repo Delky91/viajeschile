@@ -12,11 +12,16 @@ body {
 /*  NAVBAR   */
 
 nav {
-	background-color: #9dc08b;
 	max-height: 70px;
 }
-.navbar-collapse {
-	background-color: #9dc08b;
+.navbar-nav {
+	margin-top: 0.5rem;
+}
+nav .container {
+	background: hsla(0, 0%, 0%, 0.5);
+}
+.navbar-toggler-icon {
+	filter: invert(100%);
 }
 
 .navbar-brand {
