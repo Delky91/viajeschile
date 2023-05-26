@@ -17,7 +17,7 @@ nav {
 .navbar-nav {
 	margin-top: 0.5rem;
 }
-nav .container {
+nav .container-fluid {
 	background: hsla(0, 0%, 0%, 0.5);
 }
 .navbar-toggler-icon {
@@ -78,6 +78,10 @@ header {
 
 #discover span {
 	font-size: 3rem;
+}
+
+#enChile {
+	background: hsla(180, 100%, 0%, 0.1);
 }
 
 /* carusel */
